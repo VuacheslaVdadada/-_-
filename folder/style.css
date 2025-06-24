@@ -1,0 +1,288 @@
+
+body {
+
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    background-color: #AF4250;
+}
+a{
+ font-size: 30px;
+  display: flex;
+  justify-content: center;
+} 
+.ofr{
+
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: block;
+  justify-content: center;
+}   
+.podmain{
+  position: absolute;
+  font-size:70px;
+  opacity: 60%;
+  top: 10px;
+  left:20%;
+  background-color:#AE6C79 ;
+  border-radius: 10px;
+}     
+
+.main1{
+  justify-content: center;
+  position: relative;
+  top:67px;
+  
+  
+}
+.main2{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+.main3{
+  justify-content: center;
+  position: relative;
+  top:-67px;
+}
+.titul1{
+  opacity: 60%;
+  top:10px;
+  margin-top: 10px;
+
+}
+.titul2{
+  opacity: 60%;
+}
+.titul3{
+  opacity: 60%;
+  bottom:10px;
+  left: 55%;
+  
+
+  
+}
+.ogl{
+  margin-top: -3095px ;
+  display: flex;
+  justify-content: center;
+  font-size:80px;
+  opacity: 70%;
+}
+.zagl_ser{
+  position: absolute;
+  font-size:70px;
+  opacity: 70%;
+  top: 1200px;
+  left:55%;
+}
+.films{
+  margin-top: 900px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.f{
+  width: 260px;
+  height: 385px;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.carousel__item{
+  display: flex;
+}
+
+.f:hover{
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.poisk1{
+  position: relative;
+  z-index: 2;
+  opacity: 60%;
+  width:300px;
+  display:flex;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-left: 20%;
+  bottom: 600px;
+}
+.poisk1:hover{
+  transition: 0.2s;
+  opacity: 100%;
+}
+label{
+  margin-left: 20%;
+  border-radius: 20px;
+  font-size: 35px;
+}
+.l:hover{
+  transition: 0.2s;
+  opacity: 100%;
+}
+.zagl_fil{
+  position: absolute;
+  font-size:70px;
+  opacity: 70%;
+  top: 2300px;
+  left:55%; 
+}
+.serials{
+  margin-top: 670px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.poisk2{
+  position: relative;
+  z-index: 2;
+  opacity: 60%;
+  width:300px;
+  display:flex;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-left: 20%;
+  bottom: 570px;
+}
+.poisk2:hover{
+  transition: 0.2s;
+  opacity: 100%;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left:0%;
+  opacity: 60%;
+  top:190px
+}
+p { text-indent: 30px; }
+.okno{
+  background-color: #AE6C79;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 20px;
+}
+.ok2{
+  display: flex;
+  margin-right: 1200px;
+  
+}
+.ok1{
+  display: flex;
+  margin-left: 1200px;
+}
+.lox{
+  margin-left: 8%;
+}
+.ok3{
+  display: flex;
+  margin-right: 1200px;
+  
+}
+.ok4{
+  display: flex;
+  margin-left: 1200px;
+}
+.po{
+  opacity: 80%;
+}
+.po:hover{
+  transition: 0.2s;
+  opacity: 100%;
+
+
+}
+.ajol{
+  position: absolute;
+  left:400px;
+  
+}
+.spisok{
+  display: flex;
+}
+.slick-slider{
+  display: flex !important;
+  align-items: center;
+  
+}
+.carousel__item{
+  display: flex !important;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.fil{
+  margin-top: 48%;
+}
+.ser{
+  margin-top: 41%;
+}
+.soloma{
+  margin-right:14%;
+}
+
+
+@media (max-width: 868px) {
+
+  a {
+    font-size: 15px;
+  }
+  
+  .ofr{
+    margin-left: 10%;
+
+  }
+
+  .ogl{
+    margin-left:400px;
+  }
+
+  .f{
+    width:250px ;
+  }
+
+  .spisok{
+    margin-left: 500px;
+    display: flex;
+  }
+
+  .foot{
+    font-size: 20px;
+  }
+  .soloma{
+    font-size: 40px;
+    margin-right: 440px;
+  }
+  footer{
+    position: absolute;
+    left:18px;
+  }
+  .poisk1{
+    bottom:440px;
+  }
+  .poisk2{
+    bottom:440px;
+  }
+  .ok1{
+    margin-left: 1600px;
+  }
+  .ok2{
+    display: flex;
+    margin-right: 600px;
+    
+  }
+  .ok3{
+    margin-left: 600px;
+  }
+  .ok4{
+    display: flex;
+    margin-left: 1600px;
+    
+  }
+}
